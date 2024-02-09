@@ -1,6 +1,74 @@
-.navbar{
-    background-color: blue;
-    width: 20%;
-    height: auto;
-    min-height: 100vh;
+.navbar {
+  display: flex;
+  width: 15%;
+  height: auto;
+  min-height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navbarcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  height: 90vh;
+  position: sticky;
+}
+
+.navButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 20px;
+  background-color: #88ad7d;
+  padding: 20px;
+  width: 4rem;
+  border-radius: 1.2rem;
+  box-shadow: 0px 4px 20px -8px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 4px 20px -8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 4px 20px -8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.nav-sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ul-nav {
+  list-style-type: none;
+  margin-left: -2rem;
+  cursor: pointer;
+}
+
+.nav-listed-eleemets {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 8px 0px 8px 0px;
+}
+
+.create-navsec {
+  height: 16px !important;
+  width: 5rem !important;
+}
+
+.BookPhoto {
+  width: 4rem;
+}
+
+.addicon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.selectionIcon {
+  width: 25px;
+  height: 25px;
 }

@@ -1,0 +1,53 @@
+.SearchBar {
+  width: 38rem;
+  height: 4rem;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 20px;
+  padding: 2rem;
+  font-size: 20px;
+}
+
+.iconNavProfile {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 40px;
+}
+
+.profilePhoto {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 20px;
+  margin: 0px 10px 0px 10px;
+}
+
+.iconsearch {
+  color: #808080;
+  position: absolute;
+  left: 16.5%;
+  top: 48px;
+  z-index: 1;
+}
+
+.porfile,
+.porfile-buttons,
+.user-porfile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notti {
+  background-color: #fdcb98;
+}
+
+.email {
+  background-color: #c5ebba;
+}
+
+.notti,
+.email {
+  padding: 0.8rem;
+  border-radius: 28px;
+}

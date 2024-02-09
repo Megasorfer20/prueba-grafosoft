@@ -6,3 +6,13 @@
   border-top-left-radius: 32px;
   border-bottom-left-radius: 32px;
 }
+
+.nav-search-porfile {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}

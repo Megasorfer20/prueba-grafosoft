@@ -36,7 +36,7 @@
 
 .mainContent {
   width: 65%;
-  margin: 1rem;
+  margin: 3rem;
   margin-top: 1.5rem;
 }
 
@@ -47,4 +47,5 @@
   margin: 1rem;
   margin-top: 1.5rem;
   border-radius: 30px;
+  cursor: pointer;
 }

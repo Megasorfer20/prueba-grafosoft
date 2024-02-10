@@ -1,0 +1,33 @@
+.biggerBanner {
+  background-color: aqua;
+  width: 100%;
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  color: #ffffff;
+  margin: 2rem 0px;
+}
+
+.imagenBanner {
+  height: 100%;
+}
+
+.orangefill {
+  background-color: #e9a763;
+}
+
+.grayfill {
+  background-color: #343a3f;
+}
+
+.createDraftButton {
+  border: none;
+  background-color: #343a3f;
+  color: #ffffff;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 16px;
+}

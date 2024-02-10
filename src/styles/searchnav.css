@@ -23,9 +23,9 @@
 
 .iconsearch {
   color: #808080;
-  position: absolute;
-  left: 16.5%;
-  top: 48px;
+  position: relative;
+  left: 4%;
+  top: 4px;
   z-index: 1;
 }
 

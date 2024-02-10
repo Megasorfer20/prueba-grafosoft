@@ -18,8 +18,6 @@ const SearchFeed: React.FC<SearchFeedProps> = ({ characterinfo }) => {
     }
   }, [characterinfo]);
 
-  console.log(profilecharacter);
-
   return (
     <div className="nav-search-porfile">
       <div className="navigation">

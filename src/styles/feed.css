@@ -5,6 +5,23 @@
   min-height: 100vh;
   border-top-left-radius: 32px;
   border-bottom-left-radius: 32px;
+  overflow: auto;
+}
+
+.mainfeed::-webkit-scrollbar {
+  width: 15px;
+}
+
+.mainfeed::-webkit-scrollbar-track {
+  background: #cccccc;
+}
+
+.mainfeed::-webkit-scrollbar-thumb {
+  background: #868686;
+}
+
+.mainfeed::-webkit-scrollbar-thumb:hover {
+  background: #6e6e6e;
 }
 
 .nav-search-porfile {
@@ -15,4 +32,19 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;
+}
+
+.mainContent {
+  width: 65%;
+  margin: 1rem;
+  margin-top: 1.5rem;
+}
+
+.lastestContent {
+  background-color: #f5f5f5;
+  width: 30%;
+  height: auto;
+  margin: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 30px;
 }

@@ -4,6 +4,7 @@ import "../styles/maincontent.css";
 
 import MujerLeyendo1 from "../elements/mujer-leyendo1.png";
 import MujerLeyendo2 from "../elements/mujer-leyendo2.png";
+import Marketing from "./marketingsection";
 
 // Declara los props
 type MainContentProps = {
@@ -36,7 +37,7 @@ const MainContent: React.FC<MainContentProps> = ({ characterinfo }) => {
         <img src={MujerLeyendo1} alt="Mujer Leyendo" className="imagenBanner" />
       </div>
 
-      <div></div>
+      <Marketing characterinfo={characterinfo}/>
 
       <div className="biggerBanner grayfill">
         <div>
